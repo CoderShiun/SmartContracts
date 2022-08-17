@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getHashesLength",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getRoot",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Applications/merkleProof.sol": "TestMerkleProof"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Applications/merkleProof.sol": {
+			"keccak256": "0x023b405f02ab342d93ad723f8de7aa4f462ed7faa44e9617d7b2e00e5181bf5d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://05f70ff04face47eb77e61046c3c41c3359aad76a9b69d1f2ef02ef975337b6e",
+				"dweb:/ipfs/QmUETALPTvkCd8YpjcD2fYNGFRFRZMEeqxPBUSnG6KM2Ex"
+			]
+		}
+	},
+	"version": 1
+}

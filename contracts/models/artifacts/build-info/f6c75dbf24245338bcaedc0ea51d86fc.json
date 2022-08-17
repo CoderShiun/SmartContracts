@@ -1,0 +1,133 @@
+{
+	"id": "f6c75dbf24245338bcaedc0ea51d86fc",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.15",
+	"solcLongVersion": "0.8.15+commit.e14f2714",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/models/EnumDeclaration.sol": {
+				"content": "\r\nenum Status {\r\n        Pending,\r\n        Shipped,\r\n        Accepted,\r\n        Rejected,\r\n        Canceled\r\n    }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			}
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "1878",
+				"formattedMessage": "Warning: SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.\n--> contracts/models/EnumDeclaration.sol\n\n",
+				"message": "SPDX license identifier not provided in source file. Before publishing, consider adding a comment containing \"SPDX-License-Identifier: <SPDX-License>\" to each source file. Use \"SPDX-License-Identifier: UNLICENSED\" for non-open-source code. Please see https://spdx.org for more information.",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "contracts/models/EnumDeclaration.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			},
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.15;\"\n--> contracts/models/EnumDeclaration.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.15;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "contracts/models/EnumDeclaration.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"contracts/models/EnumDeclaration.sol": {
+				"ast": {
+					"absolutePath": "contracts/models/EnumDeclaration.sol",
+					"exportedSymbols": {
+						"Status": [
+							6
+						]
+					},
+					"id": 7,
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"canonicalName": "Status",
+							"id": 6,
+							"members": [
+								{
+									"id": 1,
+									"name": "Pending",
+									"nameLocation": "25:7:0",
+									"nodeType": "EnumValue",
+									"src": "25:7:0"
+								},
+								{
+									"id": 2,
+									"name": "Shipped",
+									"nameLocation": "43:7:0",
+									"nodeType": "EnumValue",
+									"src": "43:7:0"
+								},
+								{
+									"id": 3,
+									"name": "Accepted",
+									"nameLocation": "61:8:0",
+									"nodeType": "EnumValue",
+									"src": "61:8:0"
+								},
+								{
+									"id": 4,
+									"name": "Rejected",
+									"nameLocation": "80:8:0",
+									"nodeType": "EnumValue",
+									"src": "80:8:0"
+								},
+								{
+									"id": 5,
+									"name": "Canceled",
+									"nameLocation": "99:8:0",
+									"nodeType": "EnumValue",
+									"src": "99:8:0"
+								}
+							],
+							"name": "Status",
+							"nameLocation": "7:6:0",
+							"nodeType": "EnumDefinition",
+							"src": "2:112:0"
+						}
+					],
+					"src": "2:112:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

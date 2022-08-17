@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "s1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "s2",
+						"type": "address"
+					}
+				],
+				"name": "register",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test3.sol": "MultiSin"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test3.sol": {
+			"keccak256": "0x7adb49edb2ffd783f623953647bb006d3b1daa94b3c3e0036770dd9bd7275f67",
+			"license": "SimPL-3.0",
+			"urls": [
+				"bzz-raw://634fa265702434dc20f304995336cd4f524134c9c2ac63ed72e3004e39144fa9",
+				"dweb:/ipfs/QmZPV5BWLLmobqjUaLVvSPS2Cx3dFUDdsKvYZv29iHT5eF"
+			]
+		}
+	},
+	"version": 1
+}

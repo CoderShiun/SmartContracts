@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "cancel",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "enum Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "reset",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Status",
+						"name": "_status",
+						"type": "uint8"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "status",
+				"outputs": [
+					{
+						"internalType": "enum Status",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/enumExample.sol": "Enum"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/enumExample.sol": {
+			"keccak256": "0xdb4a736d030dfa11a5400115d9583a7a1acde1ef40d2904dc9ad30795c780bfc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b7cd10302a42f8cb83a2af9eddaaad15d92383a0c24e49fbf8d38fe38aff37e8",
+				"dweb:/ipfs/QmRDKEQjahdq2rzJ5RNw27L5w91tTHYUtKnLpsVGD55M3b"
+			]
+		},
+		"contracts/models/EnumDeclaration.sol": {
+			"keccak256": "0x5a8dd9a43f44ec74bfca6fe3798c947a17d95bedddbc62d754eb1a86c750a210",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1643b07641f8a48b290dba9cf600ab6e1221163bb2ebaace2e30a8c708a66203",
+				"dweb:/ipfs/QmVazEosmPh8smANJd7SBPTLAFfb3EWgfize6xogTQtkeH"
+			]
+		}
+	},
+	"version": 1
+}

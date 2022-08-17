@@ -1,0 +1,67 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"görli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_119": {
+					"entryPoint": null,
+					"id": 119,
+					"parameterSlots": 1,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600f57600080fd5b5060058060008190555050603f8060276000396000f3fe6080604052600080fdfea26469706673582212205b17d11dd51c3d18ae452072e707cb9c2c8c2c6228f016b92a70cc274a83d22064736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x5 DUP1 PUSH1 0x0 DUP2 SWAP1 SSTORE POP POP PUSH1 0x3F DUP1 PUSH1 0x27 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 JUMPDEST OR 0xD1 SAR 0xD5 SHR RETURNDATASIZE XOR 0xAE GASLIMIT KECCAK256 PUSH19 0xE707CB9C2C8C2C6228F016B92A70CC274A83D2 KECCAK256 PUSH5 0x736F6C6343 STOP ADDMOD SMOD STOP CALLER ",
+			"sourceMap": "1098:37:0:-:0;;;;;;;;;;;;;1124:1;1081:5;1074:4;:12;;;;1042:53;1098:37;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212205b17d11dd51c3d18ae452072e707cb9c2c8c2c6228f016b92a70cc274a83d22064736f6c63430008070033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 JUMPDEST OR 0xD1 SAR 0xD5 SHR RETURNDATASIZE XOR 0xAE GASLIMIT KECCAK256 PUSH19 0xE707CB9C2C8C2C6228F016B92A70CC274A83D2 KECCAK256 PUSH5 0x736F6C6343 STOP ADDMOD SMOD STOP CALLER ",
+			"sourceMap": "1098:37:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "22185",
+				"totalCost": "34785"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

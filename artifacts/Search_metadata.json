@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.16+commit.07a7930e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"mapStructPlayground.sol": "Search"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"mapStructPlayground.sol": {
+			"keccak256": "0x760ce33a169c89b2616e0fae210085d2e441656e969a292e07815e4e98cc6275",
+			"license": "SimPL-3.0",
+			"urls": [
+				"bzz-raw://d225c7bad55723b875120e1a08e92d73be7b96d60bdc11ea87c2b4c735c78f52",
+				"dweb:/ipfs/QmTFLDb9EGYyL7e72Jsv7yAUaruyaqBusjRcXGiNq8Dqtt"
+			]
+		}
+	},
+	"version": 1
+}

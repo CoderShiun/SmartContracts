@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "a2",
+						"type": "uint256"
+					}
+				],
+				"name": "stack",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/arrayExample.sol": "StackTest"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/arrayExample.sol": {
+			"keccak256": "0x5aef13eaad71828eae1958aa0274f9f8dc452cb8e7fcc0e0bf1f5cc5395f29eb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8a2ee2feadaa919efef2306dd5cb9a246026c4af67466cece9867aed16bbfa55",
+				"dweb:/ipfs/QmesZ7hh8ytMpKtJM8RzDSVAxsmEeMUBTwWoTbY9JWxa9p"
+			]
+		}
+	},
+	"version": 1
+}
